@@ -7,7 +7,7 @@ variable "subscription_id" {}
 variable "tenant_id" {}
 
 locals {
-  service_name = "pulin-web"
+  service_name = "pulin-web2"
 
   tags = {
     "OWNER"     = "pulin"
