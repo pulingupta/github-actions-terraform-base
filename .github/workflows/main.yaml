@@ -8,8 +8,7 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@master
       - name: Install packages
-
-        run: 
+        run: |
           pwd
           ls -l
           sh initializebackend.sh
