@@ -8,7 +8,11 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@master
       - name: Install packages
-        run: sh initializebackend.sh
+
+        run: 
+          pwd
+          ls -l
+          sh initializebackend.sh
       - name: "Terraform Format"
         uses: hashicorp/terraform-github-actions@master
         with:
